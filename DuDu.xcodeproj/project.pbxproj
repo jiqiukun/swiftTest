@@ -11,10 +11,65 @@
 		A61915681B91449600BE07B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61915671B91449600BE07B9 /* ViewController.swift */; };
 		A619156B1B91449600BE07B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A61915691B91449600BE07B9 /* Main.storyboard */; };
 		A619156E1B91449600BE07B9 /* DuDu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A619156C1B91449600BE07B9 /* DuDu.xcdatamodeld */; };
-		A61915701B91449600BE07B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A619156F1B91449600BE07B9 /* Assets.xcassets */; };
 		A61915731B91449600BE07B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A61915711B91449600BE07B9 /* LaunchScreen.storyboard */; };
 		A619157E1B91449600BE07B9 /* DuDuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A619157D1B91449600BE07B9 /* DuDuTests.swift */; };
 		A61915891B91449600BE07B9 /* DuDuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61915881B91449600BE07B9 /* DuDuUITests.swift */; };
+		A61915AD1B91464B00BE07B9 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A619159B1B91464B00BE07B9 /* AFHTTPRequestOperation.m */; };
+		A61915AE1B91464B00BE07B9 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A619159D1B91464B00BE07B9 /* AFHTTPRequestOperationManager.m */; };
+		A61915AF1B91464B00BE07B9 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A619159F1B91464B00BE07B9 /* AFHTTPSessionManager.m */; };
+		A61915B01B91464B00BE07B9 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A61915A21B91464B00BE07B9 /* AFNetworkReachabilityManager.m */; };
+		A61915B11B91464B00BE07B9 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = A61915A41B91464B00BE07B9 /* AFSecurityPolicy.m */; };
+		A61915B21B91464B00BE07B9 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A61915A61B91464B00BE07B9 /* AFURLConnectionOperation.m */; };
+		A61915B31B91464B00BE07B9 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A61915A81B91464B00BE07B9 /* AFURLRequestSerialization.m */; };
+		A61915B41B91464B00BE07B9 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A61915AA1B91464B00BE07B9 /* AFURLResponseSerialization.m */; };
+		A61915B51B91464B00BE07B9 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A61915AC1B91464B00BE07B9 /* AFURLSessionManager.m */; };
+		A61F4CCC1B932C6B00936902 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61F4CCB1B932C6B00936902 /* AVFoundation.framework */; };
+		A636FC291B988057009274C9 /* VoiceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A636FC281B988057009274C9 /* VoiceTableViewController.swift */; };
+		A636FC2B1B988080009274C9 /* VoiceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A636FC2A1B988080009274C9 /* VoiceTableViewCell.swift */; };
+		A636FC301B988402009274C9 /* 博美.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A636FC2F1B988402009274C9 /* 博美.jpg */; };
+		A636FC321B9884E5009274C9 /* IMG_0194.JPG in Resources */ = {isa = PBXBuildFile; fileRef = A636FC311B9884E5009274C9 /* IMG_0194.JPG */; };
+		A63937451B94928D00029EF1 /* 1.aiff in Resources */ = {isa = PBXBuildFile; fileRef = A63937441B94928D00029EF1 /* 1.aiff */; };
+		A65F1CBD1B95E22C00133F7C /* SwiftColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65F1CBC1B95E22C00133F7C /* SwiftColors.swift */; };
+		A65F1CBF1B95F37E00133F7C /* VoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65F1CBE1B95F37E00133F7C /* VoiceViewController.swift */; };
+		A68618E41B9487C9007CC60F /* 博美.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A68618CC1B9487C9007CC60F /* 博美.mp3 */; };
+		A68618E51B9487C9007CC60F /* 苍鹭.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A68618CD1B9487C9007CC60F /* 苍鹭.mp3 */; };
+		A68618E61B9487C9007CC60F /* 藏獒.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A68618CE1B9487C9007CC60F /* 藏獒.mp3 */; };
+		A68618E71B9487C9007CC60F /* 喘气.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A68618CF1B9487C9007CC60F /* 喘气.mp3 */; };
+		A68618E81B9487C9007CC60F /* 大狼狗.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A68618D01B9487C9007CC60F /* 大狼狗.mp3 */; };
+		A68618E91B9487C9007CC60F /* 狗宝宝.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A68618D11B9487C9007CC60F /* 狗宝宝.mp3 */; };
+		A68618EA1B9487C9007CC60F /* 狗被打.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A68618D21B9487C9007CC60F /* 狗被打.mp3 */; };
+		A68618EB1B9487C9007CC60F /* 狗的咆哮.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A68618D31B9487C9007CC60F /* 狗的咆哮.mp3 */; };
+		A68618EC1B9487C9007CC60F /* 狗嚎叫.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A68618D41B9487C9007CC60F /* 狗嚎叫.mp3 */; };
+		A68618ED1B9487C9007CC60F /* 狗哼哼.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A68618D51B9487C9007CC60F /* 狗哼哼.mp3 */; };
+		A68618EE1B9487C9007CC60F /* 狗狂叫不停.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A68618D61B9487C9007CC60F /* 狗狂叫不停.mp3 */; };
+		A68618EF1B9487C9007CC60F /* 狗怒.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A68618D71B9487C9007CC60F /* 狗怒.mp3 */; };
+		A68618F01B9487C9007CC60F /* 狗嗅.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A68618D81B9487C9007CC60F /* 狗嗅.mp3 */; };
+		A68618F11B9487C9007CC60F /* 海狗.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A68618D91B9487C9007CC60F /* 海狗.mp3 */; };
+		A68618F21B9487C9007CC60F /* 警犬.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A68618DA1B9487C9007CC60F /* 警犬.mp3 */; };
+		A68618F31B9487C9007CC60F /* 母狗.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A68618DB1B9487C9007CC60F /* 母狗.mp3 */; };
+		A68618F41B9487C9007CC60F /* 圣伯纳德犬.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A68618DC1B9487C9007CC60F /* 圣伯纳德犬.mp3 */; };
+		A68618F51B9487C9007CC60F /* 狮子狗.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A68618DD1B9487C9007CC60F /* 狮子狗.mp3 */; };
+		A68618F61B9487C9007CC60F /* 泰迪狗.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A68618DE1B9487C9007CC60F /* 泰迪狗.mp3 */; };
+		A68618F71B9487C9007CC60F /* 小狗叫.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A68618DF1B9487C9007CC60F /* 小狗叫.mp3 */; };
+		A68618F81B9487C9007CC60F /* 凶狠的狗.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A68618E01B9487C9007CC60F /* 凶狠的狗.mp3 */; };
+		A68618F91B9487C9007CC60F /* 凶猛.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A68618E11B9487C9007CC60F /* 凶猛.mp3 */; };
+		A68618FA1B9487C9007CC60F /* 骞煎唇.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A68618E21B9487C9007CC60F /* 骞煎唇.mp3 */; };
+		A68618FB1B9487C9007CC60F /* 鬣狗.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A68618E31B9487C9007CC60F /* 鬣狗.mp3 */; };
+		A697CC7B1B99BE3000DD8F62 /* 藏獒.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A697CC6D1B99BE3000DD8F62 /* 藏獒.jpg */; };
+		A697CC7C1B99BE3000DD8F62 /* 喘气.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A697CC6E1B99BE3000DD8F62 /* 喘气.jpg */; };
+		A697CC7D1B99BE3000DD8F62 /* 大狼狗.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A697CC6F1B99BE3000DD8F62 /* 大狼狗.jpg */; };
+		A697CC7E1B99BE3000DD8F62 /* 狗宝宝.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A697CC701B99BE3000DD8F62 /* 狗宝宝.jpg */; };
+		A697CC7F1B99BE3000DD8F62 /* 狗被打.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A697CC711B99BE3000DD8F62 /* 狗被打.jpg */; };
+		A697CC801B99BE3000DD8F62 /* 狗的咆哮.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A697CC721B99BE3000DD8F62 /* 狗的咆哮.jpg */; };
+		A697CC811B99BE3000DD8F62 /* 狗嚎叫.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A697CC731B99BE3000DD8F62 /* 狗嚎叫.jpg */; };
+		A697CC821B99BE3000DD8F62 /* 海狗.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A697CC741B99BE3000DD8F62 /* 海狗.jpg */; };
+		A697CC831B99BE3000DD8F62 /* 吉娃娃.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A697CC751B99BE3000DD8F62 /* 吉娃娃.jpg */; };
+		A697CC841B99BE3000DD8F62 /* 警犬.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A697CC761B99BE3000DD8F62 /* 警犬.jpg */; };
+		A697CC851B99BE3000DD8F62 /* 圣伯纳德犬.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A697CC771B99BE3000DD8F62 /* 圣伯纳德犬.jpg */; };
+		A697CC861B99BE3000DD8F62 /* 狮子狗.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A697CC781B99BE3000DD8F62 /* 狮子狗.jpg */; };
+		A697CC871B99BE3000DD8F62 /* 泰迪狗.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A697CC791B99BE3000DD8F62 /* 泰迪狗.jpeg */; };
+		A697CC881B99BE3000DD8F62 /* 鬣狗.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A697CC7A1B99BE3000DD8F62 /* 鬣狗.jpg */; };
+		A697CC8A1B99D71800DD8F62 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A697CC891B99D71800DD8F62 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +95,6 @@
 		A61915671B91449600BE07B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A619156A1B91449600BE07B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A619156D1B91449600BE07B9 /* DuDu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DuDu.xcdatamodel; sourceTree = "<group>"; };
-		A619156F1B91449600BE07B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A61915721B91449600BE07B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A61915741B91449600BE07B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A61915791B91449600BE07B9 /* DuDuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuDuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +103,73 @@
 		A61915841B91449600BE07B9 /* DuDuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuDuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A61915881B91449600BE07B9 /* DuDuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuDuUITests.swift; sourceTree = "<group>"; };
 		A619158A1B91449600BE07B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A61915991B91464A00BE07B9 /* DuDu-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DuDu-Bridging-Header.h"; sourceTree = "<group>"; };
+		A619159A1B91464B00BE07B9 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		A619159B1B91464B00BE07B9 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		A619159C1B91464B00BE07B9 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		A619159D1B91464B00BE07B9 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		A619159E1B91464B00BE07B9 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		A619159F1B91464B00BE07B9 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		A61915A01B91464B00BE07B9 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		A61915A11B91464B00BE07B9 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		A61915A21B91464B00BE07B9 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		A61915A31B91464B00BE07B9 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		A61915A41B91464B00BE07B9 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		A61915A51B91464B00BE07B9 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		A61915A61B91464B00BE07B9 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		A61915A71B91464B00BE07B9 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		A61915A81B91464B00BE07B9 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		A61915A91B91464B00BE07B9 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		A61915AA1B91464B00BE07B9 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		A61915AB1B91464B00BE07B9 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		A61915AC1B91464B00BE07B9 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		A61F4CCB1B932C6B00936902 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A636FC281B988057009274C9 /* VoiceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceTableViewController.swift; sourceTree = "<group>"; };
+		A636FC2A1B988080009274C9 /* VoiceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceTableViewCell.swift; sourceTree = "<group>"; };
+		A636FC2F1B988402009274C9 /* 博美.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "博美.jpg"; sourceTree = "<group>"; };
+		A636FC311B9884E5009274C9 /* IMG_0194.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0194.JPG; sourceTree = "<group>"; };
+		A63937441B94928D00029EF1 /* 1.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 1.aiff; sourceTree = "<group>"; };
+		A65F1CBC1B95E22C00133F7C /* SwiftColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftColors.swift; sourceTree = "<group>"; };
+		A65F1CBE1B95F37E00133F7C /* VoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceViewController.swift; sourceTree = "<group>"; };
+		A68618CC1B9487C9007CC60F /* 博美.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "博美.mp3"; sourceTree = "<group>"; };
+		A68618CD1B9487C9007CC60F /* 苍鹭.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "苍鹭.mp3"; sourceTree = "<group>"; };
+		A68618CE1B9487C9007CC60F /* 藏獒.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "藏獒.mp3"; sourceTree = "<group>"; };
+		A68618CF1B9487C9007CC60F /* 喘气.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "喘气.mp3"; sourceTree = "<group>"; };
+		A68618D01B9487C9007CC60F /* 大狼狗.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "大狼狗.mp3"; sourceTree = "<group>"; };
+		A68618D11B9487C9007CC60F /* 狗宝宝.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "狗宝宝.mp3"; sourceTree = "<group>"; };
+		A68618D21B9487C9007CC60F /* 狗被打.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "狗被打.mp3"; sourceTree = "<group>"; };
+		A68618D31B9487C9007CC60F /* 狗的咆哮.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "狗的咆哮.mp3"; sourceTree = "<group>"; };
+		A68618D41B9487C9007CC60F /* 狗嚎叫.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "狗嚎叫.mp3"; sourceTree = "<group>"; };
+		A68618D51B9487C9007CC60F /* 狗哼哼.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "狗哼哼.mp3"; sourceTree = "<group>"; };
+		A68618D61B9487C9007CC60F /* 狗狂叫不停.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "狗狂叫不停.mp3"; sourceTree = "<group>"; };
+		A68618D71B9487C9007CC60F /* 狗怒.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "狗怒.mp3"; sourceTree = "<group>"; };
+		A68618D81B9487C9007CC60F /* 狗嗅.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "狗嗅.mp3"; sourceTree = "<group>"; };
+		A68618D91B9487C9007CC60F /* 海狗.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "海狗.mp3"; sourceTree = "<group>"; };
+		A68618DA1B9487C9007CC60F /* 警犬.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "警犬.mp3"; sourceTree = "<group>"; };
+		A68618DB1B9487C9007CC60F /* 母狗.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "母狗.mp3"; sourceTree = "<group>"; };
+		A68618DC1B9487C9007CC60F /* 圣伯纳德犬.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "圣伯纳德犬.mp3"; sourceTree = "<group>"; };
+		A68618DD1B9487C9007CC60F /* 狮子狗.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "狮子狗.mp3"; sourceTree = "<group>"; };
+		A68618DE1B9487C9007CC60F /* 泰迪狗.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "泰迪狗.mp3"; sourceTree = "<group>"; };
+		A68618DF1B9487C9007CC60F /* 小狗叫.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "小狗叫.mp3"; sourceTree = "<group>"; };
+		A68618E01B9487C9007CC60F /* 凶狠的狗.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "凶狠的狗.mp3"; sourceTree = "<group>"; };
+		A68618E11B9487C9007CC60F /* 凶猛.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "凶猛.mp3"; sourceTree = "<group>"; };
+		A68618E21B9487C9007CC60F /* 骞煎唇.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "骞煎唇.mp3"; sourceTree = "<group>"; };
+		A68618E31B9487C9007CC60F /* 鬣狗.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "鬣狗.mp3"; sourceTree = "<group>"; };
+		A697CC6D1B99BE3000DD8F62 /* 藏獒.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "藏獒.jpg"; sourceTree = "<group>"; };
+		A697CC6E1B99BE3000DD8F62 /* 喘气.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "喘气.jpg"; sourceTree = "<group>"; };
+		A697CC6F1B99BE3000DD8F62 /* 大狼狗.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "大狼狗.jpg"; sourceTree = "<group>"; };
+		A697CC701B99BE3000DD8F62 /* 狗宝宝.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "狗宝宝.jpg"; sourceTree = "<group>"; };
+		A697CC711B99BE3000DD8F62 /* 狗被打.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "狗被打.jpg"; sourceTree = "<group>"; };
+		A697CC721B99BE3000DD8F62 /* 狗的咆哮.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "狗的咆哮.jpg"; sourceTree = "<group>"; };
+		A697CC731B99BE3000DD8F62 /* 狗嚎叫.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "狗嚎叫.jpg"; sourceTree = "<group>"; };
+		A697CC741B99BE3000DD8F62 /* 海狗.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海狗.jpg"; sourceTree = "<group>"; };
+		A697CC751B99BE3000DD8F62 /* 吉娃娃.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "吉娃娃.jpg"; sourceTree = "<group>"; };
+		A697CC761B99BE3000DD8F62 /* 警犬.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "警犬.jpg"; sourceTree = "<group>"; };
+		A697CC771B99BE3000DD8F62 /* 圣伯纳德犬.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "圣伯纳德犬.jpg"; sourceTree = "<group>"; };
+		A697CC781B99BE3000DD8F62 /* 狮子狗.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "狮子狗.jpg"; sourceTree = "<group>"; };
+		A697CC791B99BE3000DD8F62 /* 泰迪狗.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "泰迪狗.jpeg"; sourceTree = "<group>"; };
+		A697CC7A1B99BE3000DD8F62 /* 鬣狗.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "鬣狗.jpg"; sourceTree = "<group>"; };
+		A697CC891B99D71800DD8F62 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +177,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A61F4CCC1B932C6B00936902 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +201,7 @@
 		A61915591B91449600BE07B9 = {
 			isa = PBXGroup;
 			children = (
+				A61F4CCB1B932C6B00936902 /* AVFoundation.framework */,
 				A61915641B91449600BE07B9 /* DuDu */,
 				A619157C1B91449600BE07B9 /* DuDuTests */,
 				A61915871B91449600BE07B9 /* DuDuUITests */,
@@ -99,13 +222,20 @@
 		A61915641B91449600BE07B9 /* DuDu */ = {
 			isa = PBXGroup;
 			children = (
+				A636FC2C1B9883BA009274C9 /* image */,
+				A65F1CBC1B95E22C00133F7C /* SwiftColors.swift */,
+				A68618CB1B948786007CC60F /* Dog */,
+				A61915961B9144C100BE07B9 /* Library */,
 				A61915651B91449600BE07B9 /* AppDelegate.swift */,
 				A61915671B91449600BE07B9 /* ViewController.swift */,
 				A61915691B91449600BE07B9 /* Main.storyboard */,
-				A619156F1B91449600BE07B9 /* Assets.xcassets */,
 				A61915711B91449600BE07B9 /* LaunchScreen.storyboard */,
 				A61915741B91449600BE07B9 /* Info.plist */,
 				A619156C1B91449600BE07B9 /* DuDu.xcdatamodeld */,
+				A65F1CBE1B95F37E00133F7C /* VoiceViewController.swift */,
+				A636FC281B988057009274C9 /* VoiceTableViewController.swift */,
+				A636FC2A1B988080009274C9 /* VoiceTableViewCell.swift */,
+				A697CC891B99D71800DD8F62 /* Images.xcassets */,
 			);
 			path = DuDu;
 			sourceTree = "<group>";
@@ -126,6 +256,88 @@
 				A619158A1B91449600BE07B9 /* Info.plist */,
 			);
 			path = DuDuUITests;
+			sourceTree = "<group>";
+		};
+		A61915961B9144C100BE07B9 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				A619159A1B91464B00BE07B9 /* AFHTTPRequestOperation.h */,
+				A619159B1B91464B00BE07B9 /* AFHTTPRequestOperation.m */,
+				A619159C1B91464B00BE07B9 /* AFHTTPRequestOperationManager.h */,
+				A619159D1B91464B00BE07B9 /* AFHTTPRequestOperationManager.m */,
+				A619159E1B91464B00BE07B9 /* AFHTTPSessionManager.h */,
+				A619159F1B91464B00BE07B9 /* AFHTTPSessionManager.m */,
+				A61915A01B91464B00BE07B9 /* AFNetworking.h */,
+				A61915A11B91464B00BE07B9 /* AFNetworkReachabilityManager.h */,
+				A61915A21B91464B00BE07B9 /* AFNetworkReachabilityManager.m */,
+				A61915A31B91464B00BE07B9 /* AFSecurityPolicy.h */,
+				A61915A41B91464B00BE07B9 /* AFSecurityPolicy.m */,
+				A61915A51B91464B00BE07B9 /* AFURLConnectionOperation.h */,
+				A61915A61B91464B00BE07B9 /* AFURLConnectionOperation.m */,
+				A61915A71B91464B00BE07B9 /* AFURLRequestSerialization.h */,
+				A61915A81B91464B00BE07B9 /* AFURLRequestSerialization.m */,
+				A61915A91B91464B00BE07B9 /* AFURLResponseSerialization.h */,
+				A61915AA1B91464B00BE07B9 /* AFURLResponseSerialization.m */,
+				A61915AB1B91464B00BE07B9 /* AFURLSessionManager.h */,
+				A61915AC1B91464B00BE07B9 /* AFURLSessionManager.m */,
+				A61915991B91464A00BE07B9 /* DuDu-Bridging-Header.h */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		A636FC2C1B9883BA009274C9 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				A697CC6D1B99BE3000DD8F62 /* 藏獒.jpg */,
+				A697CC6E1B99BE3000DD8F62 /* 喘气.jpg */,
+				A697CC6F1B99BE3000DD8F62 /* 大狼狗.jpg */,
+				A697CC701B99BE3000DD8F62 /* 狗宝宝.jpg */,
+				A697CC711B99BE3000DD8F62 /* 狗被打.jpg */,
+				A697CC721B99BE3000DD8F62 /* 狗的咆哮.jpg */,
+				A697CC731B99BE3000DD8F62 /* 狗嚎叫.jpg */,
+				A697CC741B99BE3000DD8F62 /* 海狗.jpg */,
+				A697CC751B99BE3000DD8F62 /* 吉娃娃.jpg */,
+				A697CC761B99BE3000DD8F62 /* 警犬.jpg */,
+				A697CC771B99BE3000DD8F62 /* 圣伯纳德犬.jpg */,
+				A697CC781B99BE3000DD8F62 /* 狮子狗.jpg */,
+				A697CC791B99BE3000DD8F62 /* 泰迪狗.jpeg */,
+				A697CC7A1B99BE3000DD8F62 /* 鬣狗.jpg */,
+				A636FC311B9884E5009274C9 /* IMG_0194.JPG */,
+				A636FC2F1B988402009274C9 /* 博美.jpg */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		A68618CB1B948786007CC60F /* Dog */ = {
+			isa = PBXGroup;
+			children = (
+				A63937441B94928D00029EF1 /* 1.aiff */,
+				A68618CC1B9487C9007CC60F /* 博美.mp3 */,
+				A68618CD1B9487C9007CC60F /* 苍鹭.mp3 */,
+				A68618CE1B9487C9007CC60F /* 藏獒.mp3 */,
+				A68618CF1B9487C9007CC60F /* 喘气.mp3 */,
+				A68618D01B9487C9007CC60F /* 大狼狗.mp3 */,
+				A68618D11B9487C9007CC60F /* 狗宝宝.mp3 */,
+				A68618D21B9487C9007CC60F /* 狗被打.mp3 */,
+				A68618D31B9487C9007CC60F /* 狗的咆哮.mp3 */,
+				A68618D41B9487C9007CC60F /* 狗嚎叫.mp3 */,
+				A68618D51B9487C9007CC60F /* 狗哼哼.mp3 */,
+				A68618D61B9487C9007CC60F /* 狗狂叫不停.mp3 */,
+				A68618D71B9487C9007CC60F /* 狗怒.mp3 */,
+				A68618D81B9487C9007CC60F /* 狗嗅.mp3 */,
+				A68618D91B9487C9007CC60F /* 海狗.mp3 */,
+				A68618DA1B9487C9007CC60F /* 警犬.mp3 */,
+				A68618DB1B9487C9007CC60F /* 母狗.mp3 */,
+				A68618DC1B9487C9007CC60F /* 圣伯纳德犬.mp3 */,
+				A68618DD1B9487C9007CC60F /* 狮子狗.mp3 */,
+				A68618DE1B9487C9007CC60F /* 泰迪狗.mp3 */,
+				A68618DF1B9487C9007CC60F /* 小狗叫.mp3 */,
+				A68618E01B9487C9007CC60F /* 凶狠的狗.mp3 */,
+				A68618E11B9487C9007CC60F /* 凶猛.mp3 */,
+				A68618E21B9487C9007CC60F /* 骞煎唇.mp3 */,
+				A68618E31B9487C9007CC60F /* 鬣狗.mp3 */,
+			);
+			name = Dog;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,11 +402,13 @@
 		A619155A1B91449600BE07B9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = kyle;
 				TargetAttributes = {
 					A61915611B91449600BE07B9 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 357CENATY8;
 					};
 					A61915781B91449600BE07B9 = {
 						CreatedOnToolsVersion = 7.0;
@@ -231,9 +445,50 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A68618F01B9487C9007CC60F /* 狗嗅.mp3 in Resources */,
+				A697CC7C1B99BE3000DD8F62 /* 喘气.jpg in Resources */,
+				A68618E91B9487C9007CC60F /* 狗宝宝.mp3 in Resources */,
+				A697CC861B99BE3000DD8F62 /* 狮子狗.jpg in Resources */,
+				A68618E51B9487C9007CC60F /* 苍鹭.mp3 in Resources */,
+				A697CC811B99BE3000DD8F62 /* 狗嚎叫.jpg in Resources */,
+				A636FC321B9884E5009274C9 /* IMG_0194.JPG in Resources */,
+				A68618E71B9487C9007CC60F /* 喘气.mp3 in Resources */,
+				A697CC801B99BE3000DD8F62 /* 狗的咆哮.jpg in Resources */,
+				A697CC871B99BE3000DD8F62 /* 泰迪狗.jpeg in Resources */,
+				A697CC851B99BE3000DD8F62 /* 圣伯纳德犬.jpg in Resources */,
+				A697CC7D1B99BE3000DD8F62 /* 大狼狗.jpg in Resources */,
+				A68618F71B9487C9007CC60F /* 小狗叫.mp3 in Resources */,
+				A68618F91B9487C9007CC60F /* 凶猛.mp3 in Resources */,
+				A68618F21B9487C9007CC60F /* 警犬.mp3 in Resources */,
+				A68618F11B9487C9007CC60F /* 海狗.mp3 in Resources */,
+				A697CC821B99BE3000DD8F62 /* 海狗.jpg in Resources */,
+				A636FC301B988402009274C9 /* 博美.jpg in Resources */,
+				A697CC841B99BE3000DD8F62 /* 警犬.jpg in Resources */,
+				A68618F81B9487C9007CC60F /* 凶狠的狗.mp3 in Resources */,
+				A68618ED1B9487C9007CC60F /* 狗哼哼.mp3 in Resources */,
+				A68618EB1B9487C9007CC60F /* 狗的咆哮.mp3 in Resources */,
+				A697CC831B99BE3000DD8F62 /* 吉娃娃.jpg in Resources */,
+				A697CC881B99BE3000DD8F62 /* 鬣狗.jpg in Resources */,
+				A68618F61B9487C9007CC60F /* 泰迪狗.mp3 in Resources */,
+				A68618FA1B9487C9007CC60F /* 骞煎唇.mp3 in Resources */,
+				A68618EF1B9487C9007CC60F /* 狗怒.mp3 in Resources */,
+				A68618F51B9487C9007CC60F /* 狮子狗.mp3 in Resources */,
+				A68618E41B9487C9007CC60F /* 博美.mp3 in Resources */,
+				A68618EE1B9487C9007CC60F /* 狗狂叫不停.mp3 in Resources */,
+				A697CC7B1B99BE3000DD8F62 /* 藏獒.jpg in Resources */,
+				A68618F41B9487C9007CC60F /* 圣伯纳德犬.mp3 in Resources */,
+				A68618FB1B9487C9007CC60F /* 鬣狗.mp3 in Resources */,
+				A63937451B94928D00029EF1 /* 1.aiff in Resources */,
 				A61915731B91449600BE07B9 /* LaunchScreen.storyboard in Resources */,
-				A61915701B91449600BE07B9 /* Assets.xcassets in Resources */,
+				A68618F31B9487C9007CC60F /* 母狗.mp3 in Resources */,
+				A68618E61B9487C9007CC60F /* 藏獒.mp3 in Resources */,
+				A697CC8A1B99D71800DD8F62 /* Images.xcassets in Resources */,
+				A697CC7F1B99BE3000DD8F62 /* 狗被打.jpg in Resources */,
+				A697CC7E1B99BE3000DD8F62 /* 狗宝宝.jpg in Resources */,
 				A619156B1B91449600BE07B9 /* Main.storyboard in Resources */,
+				A68618EC1B9487C9007CC60F /* 狗嚎叫.mp3 in Resources */,
+				A68618EA1B9487C9007CC60F /* 狗被打.mp3 in Resources */,
+				A68618E81B9487C9007CC60F /* 大狼狗.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +513,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A61915AD1B91464B00BE07B9 /* AFHTTPRequestOperation.m in Sources */,
+				A65F1CBD1B95E22C00133F7C /* SwiftColors.swift in Sources */,
 				A61915681B91449600BE07B9 /* ViewController.swift in Sources */,
+				A61915AE1B91464B00BE07B9 /* AFHTTPRequestOperationManager.m in Sources */,
+				A61915B01B91464B00BE07B9 /* AFNetworkReachabilityManager.m in Sources */,
+				A61915B41B91464B00BE07B9 /* AFURLResponseSerialization.m in Sources */,
+				A61915B21B91464B00BE07B9 /* AFURLConnectionOperation.m in Sources */,
+				A65F1CBF1B95F37E00133F7C /* VoiceViewController.swift in Sources */,
+				A61915B11B91464B00BE07B9 /* AFSecurityPolicy.m in Sources */,
+				A61915AF1B91464B00BE07B9 /* AFHTTPSessionManager.m in Sources */,
+				A61915B31B91464B00BE07B9 /* AFURLRequestSerialization.m in Sources */,
+				A61915B51B91464B00BE07B9 /* AFURLSessionManager.m in Sources */,
+				A636FC2B1B988080009274C9 /* VoiceTableViewCell.swift in Sources */,
+				A636FC291B988057009274C9 /* VoiceTableViewController.swift in Sources */,
 				A619156E1B91449600BE07B9 /* DuDu.xcdatamodeld in Sources */,
 				A61915661B91449600BE07B9 /* AppDelegate.swift in Sources */,
 			);
@@ -400,10 +668,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DuDu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kyle.DuDu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DuDu/DuDu-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -411,10 +685,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DuDu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kyle.DuDu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DuDu/DuDu-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -485,6 +764,7 @@
 				A619158F1B91449600BE07B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A61915901B91449600BE07B9 /* Build configuration list for PBXNativeTarget "DuDuTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +773,7 @@
 				A61915921B91449600BE07B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A61915931B91449600BE07B9 /* Build configuration list for PBXNativeTarget "DuDuUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +782,7 @@
 				A61915951B91449600BE07B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
