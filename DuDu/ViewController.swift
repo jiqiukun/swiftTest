@@ -14,9 +14,9 @@ class ViewController: UIViewController {
     
     
     @IBOutlet weak var animateView: UIView!
-    var WIDTH : CGFloat!
+    private var WIDTH : CGFloat!
     
-    var HEIGHT : CGFloat!
+    private var HEIGHT : CGFloat!
     
     var mHtml:NSString! = ""
     var scaleX:CGFloat = 2

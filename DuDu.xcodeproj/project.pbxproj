@@ -70,6 +70,7 @@
 		A697CC871B99BE3000DD8F62 /* 泰迪狗.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A697CC791B99BE3000DD8F62 /* 泰迪狗.jpeg */; };
 		A697CC881B99BE3000DD8F62 /* 鬣狗.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A697CC7A1B99BE3000DD8F62 /* 鬣狗.jpg */; };
 		A697CC8A1B99D71800DD8F62 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A697CC891B99D71800DD8F62 /* Images.xcassets */; };
+		A6F1A5111BA5AB920023DEAA /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F1A5101BA5AB920023DEAA /* Progress.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -170,6 +171,7 @@
 		A697CC791B99BE3000DD8F62 /* 泰迪狗.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "泰迪狗.jpeg"; sourceTree = "<group>"; };
 		A697CC7A1B99BE3000DD8F62 /* 鬣狗.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "鬣狗.jpg"; sourceTree = "<group>"; };
 		A697CC891B99D71800DD8F62 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A6F1A5101BA5AB920023DEAA /* Progress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Progress.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,6 +238,7 @@
 				A636FC281B988057009274C9 /* VoiceTableViewController.swift */,
 				A636FC2A1B988080009274C9 /* VoiceTableViewCell.swift */,
 				A697CC891B99D71800DD8F62 /* Images.xcassets */,
+				A6F1A5101BA5AB920023DEAA /* Progress.swift */,
 			);
 			path = DuDu;
 			sourceTree = "<group>";
@@ -521,6 +524,7 @@
 				A61915B41B91464B00BE07B9 /* AFURLResponseSerialization.m in Sources */,
 				A61915B21B91464B00BE07B9 /* AFURLConnectionOperation.m in Sources */,
 				A65F1CBF1B95F37E00133F7C /* VoiceViewController.swift in Sources */,
+				A6F1A5111BA5AB920023DEAA /* Progress.swift in Sources */,
 				A61915B11B91464B00BE07B9 /* AFSecurityPolicy.m in Sources */,
 				A61915AF1B91464B00BE07B9 /* AFHTTPSessionManager.m in Sources */,
 				A61915B31B91464B00BE07B9 /* AFURLRequestSerialization.m in Sources */,
